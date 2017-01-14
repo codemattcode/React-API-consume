@@ -2,17 +2,27 @@ import React, { Component } from 'react';
 import './App.css';
 import Todo from './Todo';
 
-// const todos = [
-//   {
-//     task: 'make list',
-//     isComplete: false
-//   },
-//     task: 'buy shoes',
-//     isComplete: true
-// ];
+const todos = [
+  {
+    task: 'make list',
+    isComplete: false
+  },
+  {
+    task: 'buy shoes',
+    isComplete: true
+  }
+];
 
 
 class App extends Component {
+  constructor(props) {
+    super(props);
+
+    this.state = {
+      todos
+    };
+  }
+
   render() {
     return (
       <div className="app-wrapper">
@@ -22,7 +32,7 @@ class App extends Component {
         </div>
 
         <div>
-            <code><Todo /></code>
+            <code><Todo todos={this.state.todos}/></code>
         </div>
 
       </div>
