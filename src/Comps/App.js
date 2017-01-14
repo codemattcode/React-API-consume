@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import './App.css';
+import Todo from './Todo';
 
 // const todos = [
 //   {
@@ -19,6 +20,11 @@ class App extends Component {
         <div>
             <code>start here</code>
         </div>
+
+        <div>
+            <code><Todo /></code>
+        </div>
+
       </div>
     )
   }
