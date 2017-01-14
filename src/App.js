@@ -6,12 +6,9 @@ class App extends Component {
     return (
       <div className="app-wrapper">
 
-        <div className="app-header">
-          <h2>Best Web App Ever!</h2>
+        <div>
+            <code>start here</code>  
         </div>
-        <p className="app-intro-txt">
-           <code>Start here with your code and magic</code>
-        </p>
 
       </div>
     );
