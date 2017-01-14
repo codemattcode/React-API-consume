@@ -1,6 +1,16 @@
 import React, { Component } from 'react';
 import './App.css';
 
+// const todos = [
+//   {
+//     task: 'make list',
+//     isComplete: false
+//   },
+//     task: 'buy shoes',
+//     isComplete: true
+// ];
+
+
 class App extends Component {
   render() {
     return (
