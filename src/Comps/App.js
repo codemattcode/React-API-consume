@@ -1,38 +1,26 @@
 import React, { Component } from 'react';
 import './App.css';
 import Todo from './Todo';
-
-const todos = [
-  {
-    task: 'make list',
-    isComplete: false
-  },
-  {
-    task: 'buy shoes',
-    isComplete: true
-  }
-];
-
+import Func from './Func';
 
 class App extends Component {
-  constructor(props) {
-    super(props);
-
-    this.state = {
-      todos
-    };
-  }
 
   render() {
     return (
       <div className="app-wrapper">
 
-        <div>
+        {/* <div>
             <code>start here</code>
-        </div>
+        </div> */}
 
         <div>
-            <code><Todo todos={this.state.todos}/></code>
+            <h4>get this</h4>
+            <code>
+              <Todo />
+            </code>
+            <div>
+              <Func />
+            </div>
         </div>
 
       </div>

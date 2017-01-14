@@ -1,22 +1,18 @@
+import _ from 'lodash';
 import React, { Component } from 'react';
 // import './Todo.css';
 
-
-class App extends Component {
+class Todo extends Component {
+ renderItems(){
+   return 'hello';
+ }
+ 
   render() {
-    console.log(this.props.todos)
-
     return (
       <div className="app-wrapper">
 
-        <table>
-          <thead>
-            <tr>
-              <th>Task</th>
-              <th>Action</th>
-            </tr>
-          </thead>
-        </table>
+              <p>{this.renderItems()}</p>
+
 
       </div>
     );
@@ -25,4 +21,4 @@ class App extends Component {
 
 
 
-export default App;
+export default Todo;
