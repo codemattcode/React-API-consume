@@ -4,3 +4,24 @@ body {
   font-family: sans-serif;
   font-size: 16px;
 }
+html, body {
+  display: flex;
+  justify-content: center;
+}
+
+section#hello-world {
+  margin-top: 16px;
+  padding-bottom: 16px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 500px;
+}
+
+.txt {
+  color: black;
+}
+
+input {
+  margin-bottom: 30px;
+}

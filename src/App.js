@@ -7,7 +7,7 @@ class App extends Component {
       <div className="app-wrapper">
 
         <div>
-            <code>start here</code>  
+            <code>start here</code>
         </div>
 
       </div>
