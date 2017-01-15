@@ -29,7 +29,7 @@ componentDidMount: function() {
 },
 
   render: function () {
-    // console.log(this.state.lemons);
+    console.log(this.state.lemons);
     return (
        <div className="app-wrapper">
 
