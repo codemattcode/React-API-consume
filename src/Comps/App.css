@@ -1,3 +1,8 @@
 .app-wrapper {
   text-align: center;
+  padding: 20px;
+}
+input {
+  margin: 20px 0;
+  padding: 20px;
 }
