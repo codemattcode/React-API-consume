@@ -3,15 +3,15 @@ import React, { Component } from 'react';
 // import './Todo.css';
 
 class Todo extends Component {
- renderItems(){
-   return 'hello';
+ placeInside(){
+   return <i>this is itallic</i>;
  }
- 
+
   render() {
     return (
       <div className="app-wrapper">
 
-              <p>{this.renderItems()}</p>
+              <p>{this.placeInside()}</p>
 
 
       </div>
