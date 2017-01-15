@@ -4,7 +4,7 @@ class Search extends Component {
   constructor(props) {
     super(props);
 
-    this.state = { monkey: 'i am search' };
+    this.state = { monkey: 'Search Comp with 20px padding' };
   }
 
  render () {
