@@ -1,3 +1,4 @@
+### includes: remove App Component option in index.js 
 
 ## Folder Structure
 
