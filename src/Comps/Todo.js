@@ -4,7 +4,7 @@ import React, { Component } from 'react';
 
 class Todo extends Component {
  placeInside(){
-   return <i>this is itallic</i>;
+   return <i>this is todo</i>;
  }
 
   render() {

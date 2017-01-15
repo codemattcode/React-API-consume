@@ -10,18 +10,22 @@ class App extends Component {
       <div className="app-wrapper">
 
         <div>
-            <Search />
+              <Search />
         </div>
 
         <div>
-          <h4>get this</h4>
             <code>
               <Todo />
             </code>
-            <div>
-              <Func />
-            </div>
         </div>
+
+        <div>
+            <code>
+              <Func />
+            </code>
+        </div>
+
+
 
       </div>
     )
