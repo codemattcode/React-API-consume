@@ -1,4 +1,4 @@
-### includes: remove App Component option in index.js 
+### includes: remove 'App' (as Components parent) option in index.js 
 
 ## Folder Structure
 

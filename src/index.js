@@ -6,6 +6,7 @@ import './index.css';
 // if you dont want to use App.js as Components wrapper
 // remove 'import App from ....' above
 // add all Component imports
+// Below: 'const App' component is a functional component because it doesnt have any concept of 'State', unlike a 'Class' based Component
 
 // const App = () =>  {
 //   return (
